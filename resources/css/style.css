@@ -1,0 +1,71 @@
+/* Base CSS */
+html {
+  font-size: 18px;
+  line-height: 1.4rem;
+  font-family: helvetica;
+}
+
+div {
+  display: block;
+}
+
+header {
+  background-image: url("../images/glasses-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 30rem;
+  padding-top: 1rem;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+nav {
+  padding: 1rem 0;
+  background-color: cadetblue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+nav div {
+  display: flex;
+  align-items: center;
+}
+
+nav img {
+  height: 1.5rem;
+  margin-left: 2rem;
+  margin-right: 1rem;
+}
+
+ul {
+  margin-right: 1rem;
+}
+
+ul li {
+  display: inline;
+  padding: 0 1rem;
+}
+
+header .flex {
+  justify-content: flex-end;
+}
+
+.flex {
+  display: flex;
+}
+
+.banner {
+  padding: 2.5rem 5rem;
+  margin-top: 10rem;
+  margin-right: -2rem;
+  background-color: white;
+  font-weight: bold;
+  line-height: 1.2rem;
+  font-size: 2rem;
+}
