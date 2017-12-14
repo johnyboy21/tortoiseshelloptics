@@ -8,7 +8,12 @@ html {
 div {
   display: block;
 }
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
 
+/* Header and Nav */
 header {
   background-image: url("../images/glasses-bg.png");
   background-repeat: no-repeat;
@@ -16,11 +21,6 @@ header {
   background-size: cover;
   height: 30rem;
   padding-top: 1rem;
-}
-
-.container {
-  max-width: 960px;
-  margin: 0 auto;
 }
 
 nav {
@@ -68,4 +68,32 @@ header .flex {
   font-weight: bold;
   line-height: 1.2rem;
   font-size: 2rem;
+}
+
+/* Icons */
+.icons {
+  display: flex;
+  justify-content: center;
+}
+.icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  width: 5rem;
+  margin: 3rem;
+  height: 8rem;
+}
+
+.icon img.paper-icon {
+  width: 3.5rem;
+}
+
+.icon img.ruler {
+  width: 5rem;
+}
+
+.icon img.truck {
+  width: 5rem;
 }
