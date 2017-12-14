@@ -1,7 +1,10 @@
 /* Base CSS */
 html {
   font-size: 18px;
-  line-height: 1.4rem;
+}
+
+body {
+  line-height: 1.4em;
   font-family: helvetica;
 }
 
@@ -96,4 +99,35 @@ header .flex {
 
 .icon img.truck {
   width: 5rem;
+}
+
+/* Icon Supporting Info */
+.title {
+  background-color: cadetblue;
+  font-weight: bold;
+  color: white;
+  padding: 0.5rem 1.25rem;
+  margin-bottom: 1rem;
+  max-width: 10rem;
+}
+
+.info {
+  width: 35%;
+  margin-right: 5%;
+  margin-bottom: 5rem;
+}
+
+/* Footer */
+footer {
+  background-color: azure;
+  padding: 4rem 0;
+  display: flex;
+  align-items: center;
+}
+
+footer img {
+  height: 1.5rem;
+  padding-left: 4rem;
+  padding-right: 1rem;
+
 }
