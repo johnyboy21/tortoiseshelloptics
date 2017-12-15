@@ -145,3 +145,61 @@ footer img {
     font-size: 1.33rem;
   }
 }
+
+/* Media Queries for 640px */
+@media only screen and (max-width: 640px) {
+  header {
+    height: 17rem;
+    padding-top: 0;
+    background-position: 20%;
+  }
+  .banner {
+    padding: 1rem 0;
+    margin: 9rem 0 0;
+    font-size: 1rem;
+    text-align: center;
+    width: 100%
+  }
+  .menu {
+    display: none;
+  }
+  nav span {
+    display: none;
+  }
+  .icons {
+    flex-direction: column;
+    align-items: center;
+    margin-top:3rem;
+  }
+  .icon {
+    font-size: 0.77rem;
+    height: auto;
+    margin: .77rem;
+  }
+  .icon img {
+    margin-bottom: 0.77rem;
+  }
+  .info {
+    width: auto;
+  }
+  .info .title {
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+  }
+  .info p {
+    font-size: 0.77rem;
+    margin-top: 1rem;
+    padding-left: 1rem;
+  }
+  .info {
+    margin-bottom: 4rem;
+  }
+
+}
+
+@media only screen and (min-width: 640px) {
+  .phone-container {
+    display: none;
+  }
+}
